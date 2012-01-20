@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B3F65DD14C90E40005EDA8A /* ASIFormDataRequestWithRetry.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3F65DC14C90E40005EDA8A /* ASIFormDataRequestWithRetry.m */; };
+		3B3F65DE14C90E40005EDA8A /* ASIFormDataRequestWithRetry.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3F65DC14C90E40005EDA8A /* ASIFormDataRequestWithRetry.m */; };
+		3B3F65E214C912B0005EDA8A /* ASIFormDataRequestWithRetryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3F65E114C912B0005EDA8A /* ASIFormDataRequestWithRetryTests.m */; };
+		3B3F65E514C9EFCE005EDA8A /* NSObject+BlockAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3F65E414C9EFCE005EDA8A /* NSObject+BlockAdditions.m */; };
+		3B3F65F014C9F1D4005EDA8A /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B3F65EF14C9F1D4005EDA8A /* libOCMock.a */; };
+		3BC24CCC14C9FC280072192E /* ASIFormDataRequestWithRetry.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3F65DC14C90E40005EDA8A /* ASIFormDataRequestWithRetry.m */; };
 		B50C1823121C26DB0055FCAB /* ClientCertificateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B50C1822121C26DB0055FCAB /* ClientCertificateTests.m */; };
 		B50C182C121C26FA0055FCAB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B50C182B121C26FA0055FCAB /* Security.framework */; };
 		B50C1848121C27510055FCAB /* client.p12 in Resources */ = {isa = PBXBuildFile; fileRef = B50C1847121C27510055FCAB /* client.p12 */; };
@@ -143,6 +149,19 @@
 
 /* Begin PBXFileReference section */
 		1D6058910D05DD3D006BFB54 /* ASIHTTPRequest iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ASIHTTPRequest iPhone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B3F65DB14C90E40005EDA8A /* ASIFormDataRequestWithRetry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequestWithRetry.h; sourceTree = "<group>"; };
+		3B3F65DC14C90E40005EDA8A /* ASIFormDataRequestWithRetry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequestWithRetry.m; sourceTree = "<group>"; };
+		3B3F65E014C912B0005EDA8A /* ASIFormDataRequestWithRetryTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequestWithRetryTests.h; sourceTree = "<group>"; };
+		3B3F65E114C912B0005EDA8A /* ASIFormDataRequestWithRetryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequestWithRetryTests.m; sourceTree = "<group>"; };
+		3B3F65E314C9EFCE005EDA8A /* NSObject+BlockAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BlockAdditions.h"; sourceTree = "<group>"; };
+		3B3F65E414C9EFCE005EDA8A /* NSObject+BlockAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BlockAdditions.m"; sourceTree = "<group>"; };
+		3B3F65E914C9F1D4005EDA8A /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		3B3F65EA14C9F1D4005EDA8A /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		3B3F65EB14C9F1D4005EDA8A /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		3B3F65EC14C9F1D4005EDA8A /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		3B3F65ED14C9F1D4005EDA8A /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		3B3F65EE14C9F1D4005EDA8A /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
+		3B3F65EF14C9F1D4005EDA8A /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
 		B50C1821121C26DB0055FCAB /* ClientCertificateTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientCertificateTests.h; sourceTree = "<group>"; };
 		B50C1822121C26DB0055FCAB /* ClientCertificateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientCertificateTests.m; sourceTree = "<group>"; };
 		B50C182B121C26FA0055FCAB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -301,6 +320,7 @@
 				DADCEB9A12D5058500958557 /* libxml2.dylib in Frameworks */,
 				DADCEBA012D505B900958557 /* libz.dylib in Frameworks */,
 				B581DDCA12FDFEEE003BA9D0 /* GHUnitIOS.framework in Frameworks */,
+				3B3F65F014C9F1D4005EDA8A /* libOCMock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +368,7 @@
 				B57D0F4412AA7D2300E5F992 /* ASIWebPageRequest */,
 				B5873FC010FF28CA001E145F /* S3 */,
 				B5873FC710FF28CA001E145F /* CloudFiles */,
+				3B3F65DA14C90E40005EDA8A /* ASIFormDataRequestWithRetry */,
 				B55B60510F765A3C0064029C /* Tests */,
 			);
 			path = Classes;
@@ -436,6 +457,45 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3B3F65DA14C90E40005EDA8A /* ASIFormDataRequestWithRetry */ = {
+			isa = PBXGroup;
+			children = (
+				3B3F65DB14C90E40005EDA8A /* ASIFormDataRequestWithRetry.h */,
+				3B3F65DC14C90E40005EDA8A /* ASIFormDataRequestWithRetry.m */,
+			);
+			path = ASIFormDataRequestWithRetry;
+			sourceTree = "<group>";
+		};
+		3B3F65E614C9F1D4005EDA8A /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				3B3F65E714C9F1D4005EDA8A /* Headers */,
+				3B3F65EF14C9F1D4005EDA8A /* libOCMock.a */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		3B3F65E714C9F1D4005EDA8A /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				3B3F65E814C9F1D4005EDA8A /* OCMock */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		3B3F65E814C9F1D4005EDA8A /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				3B3F65E914C9F1D4005EDA8A /* NSNotificationCenter+OCMAdditions.h */,
+				3B3F65EA14C9F1D4005EDA8A /* OCMArg.h */,
+				3B3F65EB14C9F1D4005EDA8A /* OCMConstraint.h */,
+				3B3F65EC14C9F1D4005EDA8A /* OCMock.h */,
+				3B3F65ED14C9F1D4005EDA8A /* OCMockObject.h */,
+				3B3F65EE14C9F1D4005EDA8A /* OCMockRecorder.h */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
 		B52329A911CA3380006C6E5A /* UI helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -467,6 +527,11 @@
 		B55B60510F765A3C0064029C /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				3B3F65E614C9F1D4005EDA8A /* Libraries */,
+				3B3F65E314C9EFCE005EDA8A /* NSObject+BlockAdditions.h */,
+				3B3F65E414C9EFCE005EDA8A /* NSObject+BlockAdditions.m */,
+				3B3F65E014C912B0005EDA8A /* ASIFormDataRequestWithRetryTests.h */,
+				3B3F65E114C912B0005EDA8A /* ASIFormDataRequestWithRetryTests.m */,
 				B565291E101C8BD7000499CF /* ASITestCase.h */,
 				B565291F101C8BD7000499CF /* ASITestCase.m */,
 				B55B60520F765A3C0064029C /* ASIFormDataRequestTests.h */,
@@ -744,6 +809,7 @@
 				B57AF5921258B3F1002A1F0C /* WebPageViewController.m in Sources */,
 				B57AF5961258B401002A1F0C /* RequestProgressCell.m in Sources */,
 				B57D0F4912AA7D3600E5F992 /* ASIWebPageRequest.m in Sources */,
+				3B3F65DD14C90E40005EDA8A /* ASIFormDataRequestWithRetry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -787,6 +853,9 @@
 				B50D532C126C87ED0022EA6F /* BlocksTests.m in Sources */,
 				B57D0F4A12AA7D3600E5F992 /* ASIWebPageRequest.m in Sources */,
 				B5BF64EF12FDFC7100CBC324 /* GHUnitIOSTestMain.m in Sources */,
+				3B3F65E214C912B0005EDA8A /* ASIFormDataRequestWithRetryTests.m in Sources */,
+				3B3F65E514C9EFCE005EDA8A /* NSObject+BlockAdditions.m in Sources */,
+				3BC24CCC14C9FC280072192E /* ASIFormDataRequestWithRetry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -818,6 +887,7 @@
 				B57AF5931258B3F1002A1F0C /* WebPageViewController.m in Sources */,
 				B57AF5971258B401002A1F0C /* RequestProgressCell.m in Sources */,
 				B57D0F4812AA7D3600E5F992 /* ASIWebPageRequest.m in Sources */,
+				3B3F65DE14C90E40005EDA8A /* ASIFormDataRequestWithRetry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -881,10 +951,16 @@
 				GCC_PREFIX_HEADER = "iPhone Sample/iPhone_Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Classes/Tests/Libraries/Headers\"",
+					"${SDK_DIR}/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = "iPhone Sample/Tests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2.2;
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes/Tests/Libraries\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
@@ -912,11 +988,17 @@
 				GCC_PREFIX_HEADER = "iPhone Sample/iPhone_Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Classes/Tests/Libraries/Headers\"",
+					"${SDK_DIR}/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = "iPhone Sample/Tests-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2.2;
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes/Tests/Libraries\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
